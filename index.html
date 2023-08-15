@@ -4,122 +4,20 @@
     <Title>
         Personal Profile
     </Title>
+    <link rel="stylesheet" href="style.css" />
 </head>
-<style>
-    aside {
-
-        width: 200px;
-        background-color: rgb(194, 202, 202);
-    }
-
-    .pic_profile {
-        display: flex;
-        height: 150px;
-        justify-content: center;
-
-    }
-
-    .pic_profile>img {
-        align-self: center;
-        border-radius: 100%;
-    }
-
-    .pname {
-        text-align: center;
-        color: rgb(249, 37, 5);
-        font-size: 25px;
-        padding: 0px;
-        margin: 0;
-    }
-
-    p {
-        text-align: center;
-        line-height: 7px;
-        margin: 0;
-    }
-
-    nav {
-        text-align: center;
-        margin: 0;
-
-    }
-
-    ul {
-        padding: 0;
-    }
-
-    ul>li {
-        list-style-type: none;
-    }
-
-    li {
-        line-height: 25px;
-    }
-
-    a:link,
-    a:visited {
-        text-decoration: none;
-    }
-
-    a:hover,
-    a:active {
-        text-decoration: underline;
-        color: brown;
-    }
-
-    a {
-        color: rgb(197, 14, 182);
-    }
-
-    footer {
-        text-align: center;
-        font-size: 10px;
-    }
-
-    body {
-        margin: 0;
-        display: flex;
-    }
-
-    main {
-        display: flex;
-        background-image: url('profile_bg.png');
-        background-size: 250px;
-        background-repeat: no-repeat;
-        background-position: right bottom;
-        flex-grow: 1;
-    }
-
-    .hero {
-        margin-left: 10px;
-        align-self: center;
-        width: 250px;
-
-    }
-
-    .button_vp {
-        color: rgb(233, 198, 59);
-        padding: 5px;
-
-    }
-
-    .button_vp:hover {
-        color: darkblue;
-        cursor: pointer;
-    }
-</style>
 
 <body>
     <aside>
         <div class="pic_profile">
-            <img src="profile_picture.jpg" width="120px" height="120px">
+            <img src="profile_picture.jpg">
         </div>
-        <h1 class="pname">Surapath Nova</h1>
+        <h1 class="profile_name">Surapath Nova</h1>
         <p>Junior Programmer</p>
 
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="#">Service</a></li>
                 <li><a href="#">Skill</a></li>
@@ -128,13 +26,14 @@
                 <li><a href="#">Work</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="contact.html">Contact</a></li>
+                <li><a href="calendar.html">Calendar</a></li>
             </ul>
         </nav>
         <footer>Copyright<sup>R</sup> 132 1564 88 56435 4186431 545</footer>
     </aside>
-    <main>
+    <main class="main_index">
         <div class="hero">
-            <h2 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">I am Junior Programmer
+            <h2>I am Junior Programmer
             </h2>
             <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum </div>
             <br>

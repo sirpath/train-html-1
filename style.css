@@ -1,0 +1,275 @@
+aside {
+
+  width: 200px;
+  background-color: rgb(194, 202, 202);
+}
+
+.pic_profile {
+  display: flex;
+  height: 150px;
+  justify-content: center;
+
+}
+
+.pic_profile>img {
+  align-self: center;
+  border-radius: 100%;
+  width: 120px;
+  height: 120px;
+}
+
+.profile_name {
+  text-align: center;
+  color: goldenrod;
+  font-size: 25px;
+  padding: 0px;
+  margin: 0;
+}
+
+p {
+  text-align: center;
+  line-height: 7px;
+  margin: 0;
+}
+
+nav {
+  text-align: center;
+  margin: 0;
+
+}
+
+ul {
+  padding: 0;
+}
+
+ul>li {
+  list-style-type: none;
+}
+
+li {
+  line-height: 25px;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+  color: brown;
+}
+
+a {
+  color: rgb(197, 14, 182);
+}
+
+footer {
+  text-align: center;
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  display: flex;
+}
+
+main {
+  display: flex;
+  background-image: url('profile_bg.png');
+  background-size: 250px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  flex-grow: 1;
+
+}
+
+.hero {
+  margin-left: 10px;
+  align-self: center;
+  width: 250px;
+
+}
+
+.button_vp {
+  color: rgb(233, 198, 59);
+  padding: 5px;
+
+}
+
+.button_vp:hover {
+  color: darkblue;
+  cursor: pointer;
+}
+
+.main1_contact {
+  display: flex;
+  background-image: url('profile_bg.png');
+  background-size: 250px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.h_contact {
+  margin: 20px;
+  line-height: 10px;
+}
+
+.h_contact>h1 {
+  color: grey;
+  font-size: 15px;
+}
+
+.h_contact>h2 {
+  font-size: 30px;
+}
+
+.main_contact {
+  display: flex;
+  margin-left: 50px;
+
+}
+
+.data_contact {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.data2_contact {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+}
+
+.icon_contact {
+  display: flex;
+  min-width: 80px;
+  height: 80px;
+  background-color: rgb(194, 202, 202);
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+}
+
+.span_contact {
+  display: flex;
+  margin-left: 10px;
+  color: grey;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.data_input {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn_send_message {
+
+  color: white;
+  background-color: blue;
+  border: none;
+  padding: 8px;
+
+}
+
+.btn_send_message:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.about_us {
+  margin-left: 10px;
+  width: 400px;
+}
+
+.about_us>h2 {
+  font-size: 15px;
+  color: grey;
+}
+
+.about_us>h3 {
+  line-height: 10px;
+  font-size: 30px;
+}
+
+.about_us>div {
+  color: grey;
+}
+
+.object {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 15px;
+
+}
+
+.object>div {
+
+  height: 50px;
+  width: 100px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 10px;
+  line-height: 25px;
+  padding: 5px;
+  border-bottom: 6px solid blue;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.hire {
+  background-color: rgb(246, 246, 101);
+  margin-top: 40px;
+  padding: 15px;
+}
+
+.hire>button {
+  opacity: 0.5;
+}
+
+.calendar {
+  border: 1px solid black;
+  width: 700px;
+  height: 500px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+
+.month_name {
+
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  line-height: 10px;
+
+}
+
+tr,
+th {
+  border: 1px solid black;
+  padding: 2px
+}
+
+td {
+  border: 1px solid black;
+  vertical-align: top;
+  text-align: left;
+  font-size: 15px;
+
+}
+
+.tr_day>th {
+  text-align: center;
+  font-size: 15px;
+  width: 70px;
+  height: 50px;
+  font-weight: lighter;
+}

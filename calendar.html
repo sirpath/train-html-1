@@ -4,144 +4,20 @@
   <Title>
     Calendar
   </Title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-<style>
-  aside {
-
-    width: 200px;
-    background-color: rgb(194, 202, 202);
-  }
-
-  .pic_profile {
-    display: flex;
-    height: 150px;
-    justify-content: center;
-
-  }
-
-  .pic_profile>img {
-    align-self: center;
-    border-radius: 100%;
-  }
-
-  h1 {
-    text-align: center;
-    color: goldenrod;
-    font-size: 25px;
-    padding: 0px;
-    margin: 0;
-  }
-
-  p {
-    text-align: center;
-    line-height: 7px;
-    margin: 0;
-  }
-
-  nav {
-    text-align: center;
-    margin: 0;
-
-  }
-
-  ul {
-    padding: 0;
-  }
-
-  ul>li {
-    list-style-type: none;
-  }
-
-  li {
-    line-height: 25px;
-  }
-
-  a:link,
-  a:visited {
-    text-decoration: none;
-  }
-
-  a:hover,
-  a:active {
-    text-decoration: underline;
-    color: brown;
-  }
-
-  a {
-    color: rgb(197, 14, 182);
-  }
-
-  footer {
-    text-align: center;
-    font-size: 10px;
-  }
-
-  body {
-    margin: 0;
-    display: flex;
-  }
-
-  main {
-
-    background-image: url('profile_bg.png');
-    background-size: 250px;
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    flex-grow: 1;
-  }
-
-  .calendar {
-    border: 1px solid black;
-    width: 700px;
-    height: 500px;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    border-collapse: collapse;
-  }
-
-  .month_name {
-
-    margin: 0;
-    padding: 0;
-    font-size: 40px;
-
-  }
-
-  tr,
-  th {
-    border: 1px solid black;
-    padding: 2px
-  }
-
-  td {
-    border: 1px solid black;
-    vertical-align: top;
-    text-align: left;
-    font-size: 15px;
-
-  }
-
-  .tr_day>th {
-    text-align: center;
-    font-size: 15px;
-    width: 70px;
-    height: 50px;
-    font-weight: lighter;
-  }
-</style>
 
 <body>
   <aside>
     <div class="pic_profile">
-      <img src="profile_picture.jpg" width="120px" height="120px">
+      <img src="profile_picture.jpg">
     </div>
-    <h1>Surapath Nova</h1>
+    <h1 class="profile_name">Surapath Nova</h1>
     <p>Junior Programmer</p>
 
     <nav>
       <ul>
-        <li><a href="#">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="#">Service</a></li>
         <li><a href="#">Skill</a></li>
@@ -150,6 +26,7 @@
         <li><a href="#">Work</a></li>
         <li><a href="#">Blog</a></li>
         <li><a href="contact.html">Contact</a></li>
+        <li><a href="calendar.html">Calendar</a></li>
       </ul>
     </nav>
     <footer>Copyright<sup>R</sup> 132 1564 88 56435 4186431 545</footer>
@@ -157,7 +34,7 @@
   <main>
     <table class="Calendar">
       <tr>
-        <th class="month_name" colspan="7" style="line-height: 10px;">AUGUST 2023</th>
+        <th class="month_name" colspan="7">AUGUST 2023</th>
       </tr>
       <tr class="tr_day">
         <th>SUN</th>
